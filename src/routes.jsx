@@ -8,6 +8,7 @@ import {
 
 import { Contacs } from "./pages/Contacs";
 import { AddContact } from "./pages/AddContact";
+import { NewUser } from "./components/NewUser";
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -18,7 +19,7 @@ export const router = createBrowserRouter(
     // Note: The child paths of the Layout element replace the Outlet component with the elements contained in the "element" attribute of these child paths.
 
       // Root Route: All navigation will start from here.
-      <Route path="/"  errorElement={<h1>Not found!</h1>} >
+      <Route path="/"  errorElement={<NewUser/>} >
 
         {/* Nested Routes: Defines sub-routes within the BaseHome component. */}
         <Route path= "/" element={<Contacs />} />

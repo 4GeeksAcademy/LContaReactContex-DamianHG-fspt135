@@ -1,0 +1,237 @@
+body {
+    padding: 3rem;
+    background-color: black;
+}
+
+P {
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 80px #0fa;
+}
+
+img {
+    border-radius: 100%;
+    height: 10rem;
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: #f0f;
+    box-shadow:
+        0 0 10px #0fa,
+        inset 0 0 10px #0fa,
+        0 0 30px #0fa;
+}
+
+/*Estilos NewUser*/
+.bodyNewUser {
+    display: flex;
+    flex-direction: column;
+    font-family: "Oxanium", sans-serif;
+    text-align: center;
+}
+
+.NewUserText {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 80px #0fa;
+    margin-bottom: 2rem;
+}
+
+.butNewUser {
+    height: 40px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgb(7, 98, 114);
+    box-shadow:
+        0 0 10px rgb(0, 213, 255),
+        inset 0 0 10px rgb(0, 213, 255),
+        0 0 30px rgb(0, 213, 255);
+    font-family: "Oxanium", sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 80px #0fa;
+}
+
+/*Estilos NewUser*/
+
+/*Estilos Card*/
+.cardBody {
+    color: #fff;
+    border: 4px solid #fff;
+    background-color: rgb(5, 131, 159);
+    padding: 10px 20px;
+    box-shadow:
+        0 0 10px rgb(0, 208, 255),
+        inset 0 0 10px rgb(0, 208, 255),
+        0 0 30px rgb(0, 208, 255);
+    display: flex;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.fotoText {
+    display: flex;
+}
+
+.textBody {
+    margin-left: 4rem;
+}
+
+.fa-envelope,
+.fa-mobile-screen,
+.fa-location-dot {
+    margin-right: 10px;
+}
+
+.name {
+    font-size: x-large;
+}
+
+.fa-pen {
+    font-size: x-large;
+    margin-right: 2rem;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px rgb(251, 34, 243),
+        0 0 40px rgb(251, 34, 243),
+        0 0 80px rgb(251, 34, 243);
+}
+
+.fa-trash-can {
+    font-size: x-large;
+    margin-right: 2rem;
+    text-shadow:
+        0 0 5px #ff0000,
+        0 0 10px #fff,
+        0 0 20px rgb(251, 164, 34),
+        0 0 40px rgb(251, 164, 34),
+        0 0 80px rgb(251, 164, 34);
+}
+
+.butNewCont {
+    height: 40px;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgb(7, 114, 19);
+    box-shadow:
+        0 0 10px #0fa,
+        inset 0 0 10px #0fa,
+        0 0 30px #0fa;
+    font-family: "Oxanium", sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 80px #0fa;
+}
+
+/*Estilos Card*/
+
+/*Estilos AddContact*/
+.BodyForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.alert {
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
+    color: #ffffff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px rgb(255, 0, 0),
+        0 0 40px rgb(255, 0, 0),
+        0 0 80px rgb(255, 0, 0);
+    border: 2px solid #fff;
+    background-color: rgb(114, 7, 7);
+    box-shadow:
+        0 0 10px rgb(255, 0, 0),
+        inset 0 0 10px rgb(255, 0, 0),
+        0 0 30px rgb(255, 0, 0);
+}
+
+.titleForm {
+    text-align: center;
+    font-family: "Oxanium", sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px rgb(0, 170, 255),
+        0 0 40px rgb(0, 170, 255),
+        0 0 80px rgb(0, 170, 255);
+}
+
+.textForm {
+    font-family: "Oxanium", sans-serif;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px rgb(200, 0, 255),
+        0 0 40px rgb(200, 0, 255),
+        0 0 80px rgb(200, 0, 255);
+}
+
+.inputForm {
+    height: 35px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgb(4, 31, 82);
+    box-shadow:
+        0 0 10px rgb(0, 85, 255),
+        inset 0 0 10px rgb(0, 85, 255),
+        0 0 30px rgb(0, 85, 255);
+}
+
+.butForm {
+    height: 40px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: "Orbitron", sans-serif;
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: rgb(4, 77, 82);
+    box-shadow:
+        0 0 10px rgb(0, 255, 234),
+        inset 0 0 10px rgb(0, 255, 234),
+        0 0 30px rgb(0, 255, 234);
+}
+
+.linkForm {
+    font-family: "Oxanium", sans-serif;
+    font-size: x-large;
+    margin-top: 30px;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px rgb(255, 255, 0),
+        0 0 40px rgb(255, 255, 0),
+        0 0 80px rgb(255, 255, 0);
+}
+
+/*Estilos AddContact*/

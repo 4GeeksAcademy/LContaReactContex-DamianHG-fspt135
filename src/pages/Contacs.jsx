@@ -10,8 +10,7 @@ const usuario = "damian"
 
 export const Contacs = () => {
 
-	// https://playground.4geeks.com/contact/agendas/damian
-	const [list, setList] = useState([])
+	const [list, setList] = useState([]);
 	const [loading, setLoading] = useState(false);
 
 	const getData = async () => {
@@ -25,18 +24,17 @@ export const Contacs = () => {
 
 			setList(data.contacts);
 			console.log('soy el data.coantaccts', data.contacs);
-
-
 		} catch (err) {
 			console.error("Error al cargar tareas", err);
 		}
 		setLoading(false)
 	};
-	console.log('soy el list', list);
 
 	useEffect(() => {
 		getData();
 	}, []);
+
+
 
 	return (
 		<>
@@ -45,10 +43,9 @@ export const Contacs = () => {
 					<Link to='/AddContact'>
 						<button className="butNewCont"><i className="fa-solid fa-plus"></i> Add New Contact</button>
 					</Link>
-
 					{list.map((contacs) => {
-						return <Card name={contacs.name} email={contacs.email} phone={contacs.phone} address={contacs.address} />
-					})};
+						return <Card name={contacs.name} email={contacs.email} phone={contacs.phone} address={contacs.address} id={contacs.id} newList={getData} />
+					})}
 				</div>
 			)};
 		</>

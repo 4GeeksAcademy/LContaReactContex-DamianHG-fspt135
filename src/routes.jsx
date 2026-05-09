@@ -23,7 +23,8 @@ export const router = createBrowserRouter(
 
         {/* Nested Routes: Defines sub-routes within the BaseHome component. */}
         <Route path= "/" element={<Contacs />} />
-        <Route path="/AddContact" element={<AddContact />} />
+        <Route  path="/AddContact" element={<AddContact type='add'/>} />
+        <Route path="/editContact" element={<AddContact type='edit'/>} />
       </Route>
     )
 );
